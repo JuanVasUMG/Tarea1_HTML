@@ -54,3 +54,17 @@
 .navbar ul li:hover::before{
     width: 100%;
 }
+
+.presentation{
+    margin: 1vw 20vh;
+    padding: auto;
+    text-align: center;
+    font-family: roboto, sans-serif;
+    color:rgb(28, 159, 211);
+}
+
+.presentation h1{
+    font-size: 100px;
+    color: blueviolet;
+}
+
