@@ -9,6 +9,8 @@
     <!--Etiqueta 3 title-->
     <title>Game Zone - JuanVasUMG</title>
     <link rel="stylesheet" href="estilos.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </head>
 <!--Etiqueta 4 body-->
 <body class="container"> 
@@ -201,5 +203,35 @@
             </div>
         </div>
     </section>
+
+    <h2 id="Contacto">Contacto para Estudiantes UMG</h2>
+    <form action="" id="form" method="POST" action="" >
+        <label for="">Nombre</label>
+        <input type="text" name="nombre" id="" class="form-control" required>
+        <br>
+
+        <label for="">Apellido</label>
+        <input type="text" name="apellido" id="" class="form-control" required>
+        <br>
+
+        <label for="">Carné (solo número)</label>
+        <input type="number" name="carne" id="" class="form-control" required>
+        <br>
+
+        <label for="">Genero</label>
+        <select name="genero" id="" class="form-control" required>
+            <option value="H">Hombre</option>
+            <option value="M">Mujer</option>
+            <option value="O">Otros</option>
+        </select>
+        <br>
+
+        <label for="">Comentario</label>
+        <input type="text" class="form-control" required>
+        <br>
+
+        <button type="submit" class="btn btn-primary">Enviar</button>
+    </form>
+
 </body>
 </html>
